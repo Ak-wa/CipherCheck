@@ -4,8 +4,7 @@ Weak cipher checking tool for nmap `--script ssl-enum-ciphers` results
 - Uses database of https://ciphersuite.info (07-2023)
 - Local / offline database (no api request needed for each cipher suite)
 - Assumes nmap output containing ssl-enum-ciphers script output
-
-
+- Parses raw nmap output, no need to export scan results as anything
 
 ### ciphercheck_download.py (download db)
 - Downloads latest cipher suite database (including security rating) from ciphersuite.info API  
